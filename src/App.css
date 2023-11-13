@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #ffecd7;
 }
@@ -31,91 +37,18 @@ body {
     max-width: 100%;
   }
 }
-.div-4 {
-  align-self: stretch;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  gap: 20px;
-}
-@media (max-width: 991px) {
-  .div-4 {
-    max-width: 100%;
-    flex-wrap: wrap;
-  }
-}
-.div-5 {
-  color: #000;
-  font-feature-settings: "clig" off, "liga" off;
-  text-transform: uppercase;
-  font: 600 23px/35px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
-}
-.div-6 {
-  align-self: start;
-  display: flex;
-  margin-top: 6px;
-  justify-content: space-between;
-  gap: 20px;
-}
-@media (max-width: 991px) {
-  .div-6 {
-    justify-content: center;
-  }
-}
-.div-7 {
-  display: flex;
-  flex-grow: 1;
-  flex-basis: 0%;
-  flex-direction: column;
-}
-.div-8 {
-  color: #000;
-  font-feature-settings: "clig" off, "liga" off;
-  text-transform: uppercase;
-  white-space: nowrap;
-  font: 600 14px/21px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
-}
-@media (max-width: 991px) {
-  .div-8 {
-    white-space: initial;
-  }
-}
-.div-9 {
-  background-color: #ff7d00;
-  align-self: center;
-  margin-top: 5px;
-  width: 25px;
-  height: 3px;
-}
-.div-10 {
-  color: #000;
-  font-feature-settings: "clig" off, "liga" off;
-  text-transform: uppercase;
-  align-self: start;
-  font: 600 14px/21px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
-}
-.div-11 {
-  color: #000;
-  font-feature-settings: "clig" off, "liga" off;
-  text-transform: uppercase;
-  align-self: start;
-  white-space: nowrap;
-  font: 600 14px/21px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
-}
-@media (max-width: 991px) {
-  .div-11 {
-    white-space: initial;
-  }
-}
 .div-12 {
+  align-self: center;
+  margin-top: 140px;
+  max-width: 952px;
   color: #4b1604;
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
+  font-family: Bremlin;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
   letter-spacing: -0.96px;
-  align-self: center;
-  margin-top: 205px;
-  max-width: 952px;
-  font: 400 48px/72px Bremlin, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div-12 {
@@ -126,14 +59,19 @@ body {
   }
 }
 .div-13 {
-  color: #4b1604;
-  text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  letter-spacing: -0.48px;
   align-self: center;
   margin-top: 31px;
   max-width: 686px;
   font: 400 24px/36px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  color: #4b1604;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.48px;
 }
 @media (max-width: 991px) {
   .div-13 {
@@ -232,7 +170,6 @@ body {
   flex-direction: column;
   line-height: normal;
   width: 46%;
-  margin-left: 20px;
 }
 @media (max-width: 991px) {
   .column-2 {
@@ -257,31 +194,42 @@ body {
 @media (max-width: 991px) {
   .div-19 {
     max-width: 100%;
+    text-align: center;
   }
 }
 .div-20 {
   color: #000;
   text-align: right;
   font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
   letter-spacing: 0.64px;
   text-transform: uppercase;
-  font: 600 16px/24px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div-20 {
     max-width: 100%;
+    text-align: center;
   }
 }
 .div-21 {
+  margin-top: 16px;
   color: #4b1604;
   text-align: right;
   font-feature-settings: "clig" off, "liga" off;
-  margin-top: 16px;
-  font: 600 24px/36px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
 }
 @media (max-width: 991px) {
   .div-21 {
     max-width: 100%;
+    text-align: center;
   }
 }
 .div-22 {
@@ -295,7 +243,11 @@ body {
 .div-23 {
   color: #000;
   font-feature-settings: "clig" off, "liga" off;
-  font: 600 20px/30px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
 }
 .img-3 {
   aspect-ratio: 0.8;
@@ -347,7 +299,6 @@ body {
   flex-direction: column;
   line-height: normal;
   width: 46%;
-  margin-left: 20px;
 }
 @media (max-width: 991px) {
   .column-3 {
@@ -462,7 +413,6 @@ body {
   flex-direction: column;
   line-height: normal;
   width: 46%;
-  margin-left: 20px;
 }
 @media (max-width: 991px) {
   .column-4 {

@@ -26,11 +26,23 @@ a {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   height: 8vh;
   background-color: #ffecd7;
   position: sticky;
   top: 0;
+}
+@media (max-width: 768px) {
+  .nav {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 769px) {
+  .nav {
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 24px;
+  }
 }
 .nav__brand {
   color: #000;
@@ -65,8 +77,8 @@ a {
     position: fixed;
     top: 7vh;
     right: 0;
-    height: 93vh;
-    width: 50vw;
+
+    width: 40vw;
     background: #ffecd7;
     flex-direction: column;
     transform: translateX(100%);
