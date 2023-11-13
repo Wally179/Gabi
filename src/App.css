@@ -47,6 +47,7 @@ body {
   top: 220px;
   padding-left: 40px;
   padding-right: 40px;
+  z-index: 1;
 }
 @media (max-width: 991px) {
   .div-4 {

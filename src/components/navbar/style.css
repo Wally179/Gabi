@@ -30,6 +30,7 @@ a {
   background-color: #ffecd7;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 @media (max-width: 768px) {
   .nav {
