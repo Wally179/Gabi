@@ -4,24 +4,19 @@ import seta from "./img/seta.svg";
 import itera from "./img/itera.svg";
 import setaDir from "./img/setaDir.svg";
 import Navbar from "./components/navbar/navbar";
-
+import star1 from "./img/Group.svg";
+import star2 from "./img/Group2.svg";
 function App() {
   return (
     <div className="div">
       <Navbar />
       <div className="div-2">
         <div className="div-3">
-          {/* <div className="div-4">
-            <div className="div-5">LOGO GABI</div>
-            <div className="div-6">
-              <div className="div-7">
-                <div className="div-8">trabalho</div>
-                <div className="div-9" />
-              </div>
-              <div className="div-10">sobre mim</div>
-              <div className="div-11">contato</div>
-            </div> 
-  </div>*/}
+          <div className="div-4">
+            <img loading="lazy" src={star1} className="star" alt="estrelas" />
+            <img loading="lazy" src={star2} className="star2" alt="estrelas" />
+          </div>
+
           <div className="div-12">
             Olá, sou a Gabriela - Uma Designer de produto com foco em Design de
             Interação.
@@ -57,60 +52,6 @@ function App() {
                       loading="lazy"
                       src={setaDir}
                       className="img-3"
-                      alt="seta"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="div-24">
-            <div className="div-25">
-              <div className="column">
-                <div className="div-26" />
-              </div>
-              <div className="column-3">
-                <div className="div-27">
-                  <div className="div-28">
-                    <div className="div-29">ux research / product design</div>
-                    <div className="div-30">
-                      Itera - Tornando a rotina entre pais e filhos mais simples
-                      e amorosa.
-                    </div>
-                  </div>
-                  <div className="div-31">
-                    <div className="div-32">Leia o estudo de caso</div>
-                    <img
-                      loading="lazy"
-                      src={setaDir}
-                      className="img-4"
-                      alt="seta"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="div-33">
-            <div className="div-34">
-              <div className="column">
-                <div className="div-35" />
-              </div>
-              <div className="column-4">
-                <div className="div-36">
-                  <div className="div-37">
-                    <div className="div-38">ux research / product design</div>
-                    <div className="div-39">
-                      Itera - Tornando a rotina entre pais e filhos mais simples
-                      e amorosa.
-                    </div>
-                  </div>
-                  <div className="div-40">
-                    <div className="div-41">Leia o estudo de caso</div>
-                    <img
-                      loading="lazy"
-                      src={setaDir}
-                      className="img-5"
                       alt="seta"
                     />
                   </div>
