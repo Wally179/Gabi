@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Gabi/static/css/main.35172a18.css",
+    "main.js": "/Gabi/static/js/main.091aafd0.js",
+    "static/js/787.6af58464.chunk.js": "/Gabi/static/js/787.6af58464.chunk.js",
+    "static/media/itera.svg": "/Gabi/static/media/itera.836bcebd91353e137373b21675053210.svg",
+    "static/media/Group2.svg": "/Gabi/static/media/Group2.3ec29cf43b36cfb696a8f71ff05a7e3b.svg",
+    "static/media/Group.svg": "/Gabi/static/media/Group.cb3c48883ccfc4396ce8de4b3fb42bdc.svg",
+    "index.html": "/Gabi/index.html",
+    "static/media/seta.svg": "/Gabi/static/media/seta.fd009d15ae41b2977982748e1ebb72f2.svg",
+    "static/media/setaDir.svg": "/Gabi/static/media/setaDir.1e89c4401c25a3338e0e6e6e3d8d79d3.svg",
+    "main.35172a18.css.map": "/Gabi/static/css/main.35172a18.css.map",
+    "main.091aafd0.js.map": "/Gabi/static/js/main.091aafd0.js.map",
+    "787.6af58464.chunk.js.map": "/Gabi/static/js/787.6af58464.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35172a18.css",
+    "static/js/main.091aafd0.js"
+  ]
+}
